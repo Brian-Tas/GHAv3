@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c1: hsl(0, 0%, 100%);
+  --c2: hsl(0, 0%, 20%);
+  --altC1: hsl(196, 67%, 62%);
+}
+
+
+body {
+  background-color: var(--c1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-container {
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-color: hsla(0, 0%, 75%, 0.200);
+  max-width: 1500px;
+  height: 100%;
+  margin: auto;
+  padding: 50px 30px 50px 30px;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 700;
+  text-align: center;
+  color: var(--c2);
+}
+
+.heading {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+  color: var(--altC1);
+}
+
+.subheading {
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--altC1);
+}
+
+p {
+  font-size: 1.1em;
+}
