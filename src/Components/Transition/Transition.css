@@ -1,0 +1,13 @@
+.transition-container {
+    height: 500px;
+    background-color: var(--altC1);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.transition-image {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
