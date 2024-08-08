@@ -5,7 +5,7 @@ function Button(props) {
     return(
         <div className="button-container">
             <Link to={`/${props.link}`}>
-                <button className={`button whitespace-nowrap ${props.otherClasses}`}>{props.label}</button>
+                <button className={`button ${props.otherClasses}`}>{props.label}</button>
             </Link>
         </div>
     );
