@@ -2,7 +2,6 @@ import Title from "../../Components/Title";
 import Selector from "../../Components/Selector/Selector";
 import Transition from "../../Components/Transition/Transition";
 import SeparaterLine from "../../Components/Separater Line/SeparaterLine";
-import Lorem from "../../Components/Lorem";
 import "./Thermometry.css";
 
 function Thermometry() {
