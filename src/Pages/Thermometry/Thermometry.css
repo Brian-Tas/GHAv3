@@ -1,0 +1,37 @@
+.thermography-content-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 100px);
+    gap: 10px;
+    font-size: 1.5rem;
+    background-color: beige;
+}
+
+.thermography-content-container * {
+    background-color: teal;
+}
+
+.thermography-content-container .how-work {
+    grid-area: 1 / 1 / 6 / 7;
+    padding: 10px 10px 10px 10px;
+}
+
+.thermography-content-container .chronic-illness {
+    grid-area: 6 / 1 / 11 / 4;
+    padding: 10px 10px 10px 10px;
+}
+
+.thermography-content-container .unlike-other {
+    grid-area: 6 / 4 / 9 / 7;
+    padding: 10px 10px 10px 10px;
+}
+
+.thermography-content-container .what-like {
+    grid-area: 1 / 7 / 6 / 11;
+    padding: 10px 10px 10px 10px;
+}
+
+.thermography-content-container .quote {
+    grid-area: 6 / 7 / 11 / 11;
+    padding: 10px 10px 10px 10px;
+}
