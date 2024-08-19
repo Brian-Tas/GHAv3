@@ -13,6 +13,7 @@ function Thermometry() {
 
         <SeparaterLine/>
         <div className="thermography-content-container">
+            <img src="public/body-diagram.jpg" alt="diagram of body" id='body-diagram' />
             <div className="how-work">
                 <h2 className="subheading">How Does It Work?</h2>
                 <p>
@@ -57,6 +58,7 @@ function Thermometry() {
                 </p>
             </div>
             <div className="what-like">
+                <SeparaterLine/>
                 <h2 className="subheading">What is the Test Like?</h2>
                 <p>The 30-minute test is gentle and non-invasive.
                     An initial set of measurements is taken. 
@@ -75,16 +77,19 @@ function Thermometry() {
                     by European doctors specializing
                     in Integrative Medicine
                 </p>
-                <p className ="text-2xl"><i>“This technology is the most comprehensive
+                <br/>
+                <p className ="text-3xl"><i>“This technology is the most comprehensive
                      evaluation of the functioning of the
                       internal organs of the human body.”</i>
                 </p>
+                <br/>
                 <p>
                     - Dr. Michael Einsohn, D.C.
                     Dallas Thermography Clinic
                 </p>
             </div>
         </div>
+        <SeparaterLine />
     </div>
     );
 }
