@@ -11,7 +11,8 @@
 }
 
 .thermography-content-container .what-like {
-    grid-area: 7 / 1 / 12 / 5;
+    grid-area: 7 / 1 / 12 / 6;
+    margin-top: 30px;
 }
 
 .thermography-content-container .unlike-other {
@@ -23,7 +24,8 @@
 }
 
 .thermography-content-container .quote {
-    grid-area: 8 / 5 / 11 / 11;
+    grid-area: 7 / 6 / 11 / 11;
+    margin-top: 30px;
 }
 
 .thermography-content-container #body-diagram {

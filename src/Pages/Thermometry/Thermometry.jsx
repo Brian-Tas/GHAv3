@@ -73,6 +73,7 @@ function Thermometry() {
                     for consultation with your doctor.</p>
             </div>
             <div className="quote">
+                <SeparaterLine/>
                 <p className="subheading">Founded on 30 years of research
                     by European doctors specializing
                     in Integrative Medicine
